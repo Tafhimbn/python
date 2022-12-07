@@ -9,7 +9,6 @@ circuit_marks, machine_marks, programming_marks, managment_marks = input("Enter 
 
 total_marks = int(circuit_marks) + int(machine_marks) + int(programming_marks) + int(managment_marks)
 average_marks = total_marks / 4
-
 print("Name: " + full_name)
 print("ID: " + str(id))
 print("ID: " + str(semester))

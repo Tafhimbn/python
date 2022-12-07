@@ -12,7 +12,6 @@ managment_marks = 78
 total_marks = circuit_marks + machine_marks + programming_marks + managment_marks
 average_marks = total_marks / 4
 
-# Print type of veriables
 print("Name: " + full_name)
 print("ID: " + str(id))
 print("CGPA: "+ str(cgpa))
@@ -23,4 +22,4 @@ print("Name: "+ str(type(full_name)))
 print("ID: "+ str(type(id)))
 print("CGPA: "+ str(type(cgpa)))
 print("Total Marks: "+ str(type(total_marks)))
-print("Average marks: "+ str(type(average_marks)))
+print("Average marks: "+ str(type(average_marks))) #bvnbgfgfgfghfg
