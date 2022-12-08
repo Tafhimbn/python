@@ -51,6 +51,25 @@ print(f"My name is {name.title()}")
 # Use count() method to count how many time a specific character is used in string
 print(f"'t' is used in Python {str.count('t')} times")
 
+# Strip() method
+lang = "     Python   "
+# Use lstrip() method to remove left whitespace in string
+print(f"Using left strip string is {lang.lstrip()}.....")
 
+# Use rstrip() method to remove right whitespace in string
+print(f"Using left strip string is {lang.rstrip()}.....")
 
+# Use strip() method to remove both side whitespace in string
+print(f"Using left strip string is .....{lang.strip()}.....")
 
+# Use replace method to string any portion of string
+text = "This is a python code."
+print(text.replace(" ","_"))
+print(text.replace("python","Java"))
+
+# Use find method to find lowest index of sub-string in string
+text = "This is python code and python is every faster than other language."
+print(text.find(" is ")+1)
+print(text.find(" is ",8,60)+1)
+
+print(str.center(len(str)+8,"*"))
