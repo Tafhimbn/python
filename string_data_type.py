@@ -72,4 +72,10 @@ text = "This is python code and python is every faster than other language."
 print(text.find(" is ")+1)
 print(text.find(" is ",8,60)+1)
 
+# center method 
 print(str.center(len(str)+8,"*"))
+
+# Immutable
+# String are immutable or unchangable
+print(str.replace("t","T"))
+print(str)
