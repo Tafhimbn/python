@@ -60,7 +60,20 @@ print("The type of Exam_SET",type(exam_set))
 
 
 
-## Data Type Conversion 
+# Type Casting/Conversion
+  # 1) implicit Casting/ conversion  -> Compiler/interpreter automatically converts object of one type into other
+a=2
+b=3.5
+c=a+b
+print(c)
+
+a=True
+b=3.5
+c=a+b
+print(c)
+
+   # 2) explicit  Casting/ conversion  -> built-in functions int(), float() and str() to perform the explicit conversions 
+ 
 print("Conversion to integer data type")
 a = int(1)
 b = int(2.2)
@@ -88,3 +101,5 @@ c = str("3.3")
 print(a)
 print(b)
 print(c)
+
+
