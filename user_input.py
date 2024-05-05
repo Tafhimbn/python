@@ -4,10 +4,10 @@ full_name = first_name +" "+last_name
 id, semester=input("Enter Student ID & Semester: ").split()
 cgpa = float(input("Enter Current CGPA: "))
 
-#circuit_marks, machine_marks, programming_marks, managment_marks = input("Enter Circuit, Machine, Programming & Managment Marks(Keep \",\" between marks): ").split(",")
-circuit_marks, machine_marks, programming_marks, managment_marks = input("Enter Circuit, Machine, Programming & Managment Marks(Keep space between marks): ").split(" ")
+#circuit_marks, machine_marks, programming_marks, management_marks = input("Enter Circuit, Machine, Programming & Management Marks(Keep \",\" between marks): ").split(",")
+circuit_marks, machine_marks, programming_marks, management_marks = input("Enter Circuit, Machine, Programming & Management Marks(Keep space between marks): ").split(" ")
 
-total_marks = int(circuit_marks) + int(machine_marks) + int(programming_marks) + int(managment_marks)
+total_marks = int(circuit_marks) + int(machine_marks) + int(programming_marks) + int(management_marks)
 average_marks = total_marks / 4
 print("Name: " + full_name)
 print("ID: " + str(id))
