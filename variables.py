@@ -22,4 +22,4 @@ print("Name: "+ str(type(full_name)))
 print("ID: "+ str(type(id)))
 print("CGPA: "+ str(type(cgpa)))
 print("Total Marks: "+ str(type(total_marks)))
-print("Average marks: "+ str(type(average_marks))) #bvnbgfgfgfghfg
+print("Average marks: "+ str(type(average_marks)))
