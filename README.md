@@ -1,7 +1,7 @@
 # Python 
 
 ## Python Basic
-#### Python Variables
+###### Python Variables
 #### Python Data Types
 #### Python Keywords
 #### Python Literals
